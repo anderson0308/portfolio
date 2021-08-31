@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-center {
+text-align: center;
+}
+
+.heading {
+font-size: 72px;
+}
+
+.subheading {
+    font-size: 26px;
+}
+
+.heading2 {
+    font-size: 56;
+}
+
+/* MOBILE STYLES */
+@media (max-width:600px) {
+
+
+}
