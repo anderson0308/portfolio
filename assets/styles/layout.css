@@ -150,6 +150,31 @@ body {
   background-color: #e6e6e6;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.footer-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.footer-links a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.footer-social-links a {
+  font-size: 22px;
+  color: #a1a1a1;
+  margin: 0 11px;
+}
+
 /* MOBILE STYLES */
 @media (max-width: 600px) {
 }
