@@ -13,12 +13,95 @@
     padding-right: 13px;
 }
 
-.jumbotron {
-    padding: 25px 13px;
+
+.jumbotron .text-center {
+	position: relative;
 }
 
-.mt-30 {
-    margin-top: 30px;
+.align-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 10%;
+}
+/* Photo on the home page */
+.profile {
+	min-height: 700px;
+	max-height: 800px;
+	background: url("../images/home/profile.png") center bottom no-repeat;
+	background-size:contain;
+}
+
+.mtb-75 {
+    margin: 75px 0;
+}
+
+.project-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+	/* max-width: 400px; */
+}
+
+.project-grid-card {
+	border-radius: 15px;
+	min-height: 300px;
+	max-height: 500px;
+	max-width: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.project-grid-card.amazon {
+	background: linear-gradient(124.74deg, #64D2FF 0%, #81FFD7 100%);
+}
+
+.project-grid-card.twitter {
+	background: linear-gradient(124.74deg, #007AFF 0%, #59ADE7 52.55%, #64D2FF 100%);
+}
+
+.project-grid-card.laptop img{
+	position: absolute;
+	max-width: 80%;
+	max-height: 220px;
+	filter: grayscale();
+	right: 0;
+bottom: 0;
+	transition: filter .6s ease;
+	}
+
+	.project-grid-card.laptop:hover img{
+		filter: unset;
+	}
+	
+
+.project-grid-card.mobile img{
+	position: absolute;
+	max-width: 80%;
+	max-height: 200px;
+	filter: grayscale();
+	right: 0;
+	bottom: 0;
+	transition: filter .6s ease;
+	}
+
+.project-grid-card.mobile:hover img{
+	filter: unset;
+}
+
+.project-grid-card-title {
+	font-size: 28px;
+	font-weight: 600;
+	color: white;
+	padding-left: 36px;
+	padding-top: 36px;
+}
+
+.project-grid-card.omviser {
+	background: linear-gradient(124.74deg, #5856D6 0%, #A07DEC 54.95%, #D6A1E7 100%);
 }
 
 /* MOBILE STYLES */

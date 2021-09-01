@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* San Francisco Font from Apple */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 
+/* Set font for all pages to SF */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'San Francisco', sans-serif;
 }
 
 .text-center {
@@ -10,6 +16,7 @@ text-align: center;
 
 .heading {
 font-size: 72px;
+margin-bottom: 20px;
 }
 
 .subheading {
@@ -18,6 +25,7 @@ font-size: 72px;
 
 .heading2 {
     font-size: 56;
+    margin: ;
 }
 
 /* MOBILE STYLES */
