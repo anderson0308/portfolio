@@ -117,17 +117,7 @@ body {
 .project-grid-card.bubbles {
   background: linear-gradient(
     124.78deg,
-    #ffaa1b 7.81%,
-    #ffcc00 28.65%,
-    #ffd60a 48.44%,
-    #fdea8b 100%,
-  );
-}
-
-.project-grid-card.bubbles {
-  background: linear-gradient(
-    124.78deg,
-    #29bb9c 0%,
+    #ffaa1b 0%,
     #46e66e 53.12%,
     #a7fcb4 100%
   );
