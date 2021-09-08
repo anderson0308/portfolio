@@ -1,0 +1,318 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.black-block {
+  width: 100%;
+  background-color: black;
+  /* height: 33%; */
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.jumbotron .text-center {
+  position: relative;
+}
+
+.align-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 10%;
+}
+/* Photo on the home page */
+.profile {
+  min-height: 75vh;
+  background: url("../images/home/profile.png") center bottom no-repeat;
+  background-size: contain;
+}
+
+.mtb-75 {
+  margin: 75px 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.project-grid-card {
+  margin: 0 auto;
+  border-radius: 15px;
+  min-height: 330px;
+  max-height: 450px;
+  width: 100%;
+  max-width: 460px !important;
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.5s ease-in-out;
+}
+
+.project-grid-card:hover {
+  filter: drop-shadow(15px 15px 40px rgba(0, 0, 0, 0.25));
+}
+
+.project-grid-card.amazon {
+  background: linear-gradient(124.74deg, #64d2ff 0%, #81ffd7 100%);
+}
+
+.project-grid-card.twitter {
+  background: linear-gradient(
+    124.74deg,
+    #007aff 0%,
+    #59ade7 52.55%,
+    #64d2ff 100%
+  );
+}
+
+.project-grid-card.sephora {
+  background: linear-gradient(
+    124.74deg,
+    #f45090 0%,
+    #f0806e 52.44%,
+    #ff9f0a 100%
+  );
+}
+
+.project-grid-card.cornell-creatives {
+  background: linear-gradient(
+    124.74deg,
+    #ff2d55 0%,
+    #f45090 37.5%,
+    #ff93bd 100%
+  );
+}
+
+.project-grid-card.bec {
+  background: linear-gradient(
+    124.78deg,
+    #29bb9c 0%,
+    #46e66e 53.12%,
+    #a7fcb4 100%
+  );
+}
+
+.project-grid-card.bubbles {
+  background: linear-gradient(
+    124.78deg,
+    #ffaa1b 7.81%,
+    #ffcc00 28.65%,
+    #ffd60a 48.44%,
+    #fdea8b 100%,
+  );
+}
+
+.project-grid-card.laptop img {
+  position: absolute;
+  max-width: 80%;
+  max-height: 225px;
+  filter: grayscale();
+  right: 0;
+  bottom: 20px;
+  transition: filter 0.5s ease;
+}
+
+.project-grid-card.laptop:hover img {
+  filter: unset;
+}
+
+.project-grid-card.mobile img {
+  position: absolute;
+  max-width: 80%;
+  max-height: 250px;
+  filter: grayscale();
+  right: 0;
+  bottom: 0;
+  transition: filter 0.5s ease;
+}
+
+.project-grid-card.mobile:hover img {
+  filter: unset;
+}
+
+.project-grid-card-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  padding-left: 36px;
+  padding-top: 36px;
+}
+
+.project-grid-card.omviser {
+  background: linear-gradient(
+    124.74deg,
+    #5856d6 0%,
+    #a07dec 54.95%,
+    #d6a1e7 100%
+  );
+}
+
+.footer {
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #e6e6e6;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.footer-container-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.footer-links a {
+  margin: 0 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.footer-social-links a {
+  font-size: 22px;
+  color: #a1a1a1;
+  margin: 0 11px;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 600px) {
+}
+
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

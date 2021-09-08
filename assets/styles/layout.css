@@ -35,6 +35,11 @@ body {
   background-size: contain;
 }
 
+/* Photo on the resume page */
+.resume {
+  background: url("../images/home/resume.png");
+}
+
 .mtb-75 {
   margin: 75px 0;
 }
@@ -100,6 +105,16 @@ body {
     #29bb9c 0%,
     #46e66e 53.12%,
     #a7fcb4 100%
+  );
+}
+
+.project-grid-card.bubbles {
+  background: linear-gradient(
+    124.78deg,
+    #ffaa1b 7.81%,
+    #ffcc00 28.65%,
+    #ffd60a 48.44%,
+    #fdea8b 100%,
   );
 }
 
