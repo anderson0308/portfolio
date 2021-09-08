@@ -28,6 +28,7 @@ body {
   right: 0;
   margin-bottom: 10%;
 }
+
 /* Photo on the home page */
 .profile {
   min-height: 75vh;
@@ -38,8 +39,7 @@ body {
 .lightbulb {
   min-height: 50vh;
   background: url("../images/extra/lightbulb.png") center bottom no-repeat;
-  background-size: contain; 
-  margin-bottom: 15%;
+  background-size: contain;
 }
 
 .mtb-75 {
