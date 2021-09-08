@@ -34,6 +34,12 @@ body {
   background: url("../images/home/profile.png") center bottom no-repeat;
   background-size: contain;
 }
+/* Photo on the extra page */
+.lightbulb {
+  min-height: 75vh;
+  background: url("../images/extra/lightbulb.png") center bottom no-repeat;
+  background-size: contain; 
+}
 
 .mtb-75 {
   margin: 75px 0;
