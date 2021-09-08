@@ -35,11 +35,6 @@ body {
   background-size: contain;
 }
 
-/* Photo on the resume page */
-.resume {
-  background: url("../images/home/resume.png");
-}
-
 .mtb-75 {
   margin: 75px 0;
 }
