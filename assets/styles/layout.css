@@ -106,8 +106,7 @@ body {
 .project-grid-card.bubbles {
   background: linear-gradient(
     124.78deg,
-    #ffaa1b 7.81%,
-    #ffcc00 28.65%,
+    #ffcc00 0%,
     #ffd60a 48.44%,
     #fdea8b 100%,
   );
