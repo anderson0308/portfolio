@@ -39,6 +39,7 @@ body {
   min-height: 50vh;
   background: url("../images/extra/lightbulb.png") center bottom no-repeat;
   background-size: contain; 
+  margin-bottom: 15%;
 }
 
 .mtb-75 {
