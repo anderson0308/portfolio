@@ -51,9 +51,19 @@ body {
 }
 
 .about-me__icon-grid {
+  margin-top: 82px;
   display: grid;
-  grid-template-columns: repeat((auto-fit, minmax(200px, 2fr)));
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  grid-gap: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-me__icon-grid img {
+  max-height: 75px;
 }
 
 .project-grid {
