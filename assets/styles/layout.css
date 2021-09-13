@@ -50,6 +50,12 @@ body {
   margin-top: 122px;
 }
 
+.about-me__icon-grid {
+  display: grid;
+  grid-template-columns: repeat((auto-fit, minmax(200px, 2fr)));
+  grid-gap: 10px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -199,9 +205,45 @@ body {
   margin: 0 11px;
 }
 
-/* MOBILE STYLES */
-@media (max-width: 600px) {
+.about-me p {
+margin: 12px 0 12px 0;
+line-height: 24px;
 }
+
+/* Columns */
+
+.two-columns {
+  display: flex;
+  
+  /* align-items: center; */
+  /* max-width:fit-content; */
+  align-content: space-between;
+
+}
+
+.column-text {
+  padding: 50px 50px 50px 0px;
+  font-size: 24px;
+}
+
+.column-text h1 {
+  font-size: 80px;
+  margin: 25px 0 25px 0;
+}
+
+.column-text h3 {
+  font-size: 32px;
+}
+
+.two-columns img {
+  max-height: 550px;
+  padding: 50px 0 50px 50px;
+}
+
+/* MOBILE STYLES */
+/* @media (max-width: 600px) {
+
+} */
 
 /* CSS RESET */
 html,
