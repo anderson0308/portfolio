@@ -9,6 +9,13 @@ body {
   color: white;
 }
 
+.resume-block {
+  width: 100%;
+  background: url("../images/resume/resume.png") center top no-repeat;
+  background-size: contain;
+  height: 871.88px;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -28,6 +35,18 @@ body {
   right: 0;
   margin-bottom: 10%;
 }
+
+.m-15 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 20%;
+}
+
+.m-64 {
+  margin-top: 64px;
+}
+
 
 /* Photo on the home page */
 .profile {
@@ -58,6 +77,16 @@ body {
   padding-right: 8%;
 }
 
+.me {
+  padding-left: 0;
+  padding-right:0;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 20% 74%;
+  grid-gap: 56px;
+}
 .project-grid-card {
   margin: 0 auto;
   border-radius: 15px;
@@ -117,9 +146,10 @@ body {
 .project-grid-card.bubbles {
   background: linear-gradient(
     124.78deg,
-    #ffaa1b 0%,
+    #ffaa1b 7.81%,
     #FFCC00 28.65%,
-    #FFD60A 100%,
+    #FFD60A 48.44%,
+    #FDEA8B 100%
   );
 }
 
@@ -166,6 +196,10 @@ body {
     #a07dec 54.95%,
     #d6a1e7 100%
   );
+}
+
+.top {
+  background-color: royalblue;
 }
 
 .footer {

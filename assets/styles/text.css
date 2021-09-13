@@ -14,21 +14,73 @@ body {
   text-align: center;
 }
 
-.heading {
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  letter-spacing: -4.8px;
+}
+
+h2 {
   font-size: 72px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.subheading {
+h3 {
+  font-size: 48px; 
+  font-weight: bold; 
+}
+
+h4 {
+  font-size: 32px
+}
+
+h5 {
   font-size: 26px;
+  font-weight: normal;
 }
 
-.heading2 {
-  font-size: 56;
-  margin: ;
+h6 {
+  font-size: 24px; 
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
 }
 
+
+p { 
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.m-126 {
+  margin-top: 126px;
+}
+
+.m-28 {
+  margin-top: 28px;
+}
+
+.m-24 {
+  margin-top: 24px;
+}
+
+.m-12 {
+  margin-top: 12px;
+}
+
+.m-104 {
+  margin-bottom: 104px;
+}
+
+.gray {
+  color: #414141;
+}
+
+.grey {
+  color: #6e6e6e
+}
 .footer > .container > hr {
   height: 1px;
   border: none;
