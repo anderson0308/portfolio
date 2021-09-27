@@ -1,0 +1,244 @@
+body {
+    background-color: #000000;
+}
+
+.bubbles-block {
+    width: 100%;
+    background: url("../images/bubbles/bubbles-cover.png") center top no-repeat; 
+    background-size: cover;
+    height: 612px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.jumbotron .text-center {
+    position: relative;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #e6e6e6;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+  
+.footer-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+  
+.footer-links a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+  
+.footer-social-links a {
+    font-size: 22px;
+    color: #a1a1a1;
+    margin: 0 11px;
+}
+  
+.about-me p {
+  margin: 12px 0 12px 0;
+  line-height: 24px;
+}
+
+.mt-104 {
+    margin-top: 104px;
+}
+
+.m-80 {
+    margin-top: 80px;
+}
+
+.m-104 {
+    margin-bottom: 104px;
+}
+
+.m-162 {
+    margin-bottom: 162px;
+}
+
+
+  
+/* Columns */
+  
+.two-columns {
+    display: flex;
+    
+    /* align-items: center; */
+    /* max-width:fit-content; */
+    align-content: space-between;
+  
+}
+  
+.column-text {
+    padding: 0px 120px 50px 0px;
+    font-size: 24px;
+    margin-left: 11.57%;
+}
+  
+.column-text h2 {
+    font-size: 80px;
+    margin: 62px 0 26px 0;
+}
+  
+.column-text h6 {
+    margin-top: 32px;
+    line-height: 110%; 
+}
+  
+.grey04 {
+    color: #a1a1a1;
+}
+
+.grey05 {
+    color: #f5f5f5;
+}
+  
+/* MOBILE STYLES */
+/* @media (max-width: 600px) {
+  
+} */
+  
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  

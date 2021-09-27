@@ -1,0 +1,94 @@
+/* San Francisco Font from Apple */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+  
+/* Set font for all pages to SF */
+body {
+font-family: "San Francisco", sans-serif;
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 64px;
+}
+
+h4 {
+    font-size: 42px;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+h6 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.p2 {
+    font-size: 24px;
+}
+
+.p3 {
+    font-size: 22px;
+}
+
+.p4 {
+    font-size: 16px;
+}
+
+.p5 {
+    font-size: 14px;
+}
+
+.yellow {
+    color: #ffd60a;
+    text-align: center;
+    margin-left: 14.88%;
+    margin-right: 14.88%;
+    margin-top: 104px;
+}
+.footer > .container > hr {
+    height: 1px;
+    border: none;
+    background-color: #a1a1a1;
+}
+  
+.footer-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+  
+.footer-subtitle {
+    color: #a1a1a1;
+    font-size: 18;
+}
+  
+.footer-subtitle a {
+    color: #a1a1a1;
+}
+  
+/* MOBILE STYLES */
+  @media (max-width: 600px) {
+}
+
+/* MOBILE STYLES */
+@media (max-width: 600px) {
+}

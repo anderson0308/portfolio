@@ -16,6 +16,13 @@ body {
   height: 871.88px;
 }
 
+.bubbles-block {
+  width: 100%;
+  background: url("../images/bubbles/bubbles-cover.png") center top no-repeat; 
+  background-size: cover;
+  height: 612px;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -77,8 +84,8 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
 }
 
 .about-me__icon-grid img {
@@ -266,13 +273,13 @@ line-height: 24px;
 }
 
 .column-text {
-  padding: 50px 50px 50px 0px;
+  padding: 0px 120px 50px 0px;
   font-size: 24px;
 }
 
 .column-text h1 {
   font-size: 80px;
-  margin: 25px 0 25px 0;
+  margin: 14px 0 26px 0;
 }
 
 .column-text h3 {
@@ -280,8 +287,8 @@ line-height: 24px;
 }
 
 .two-columns img {
-  max-height: 550px;
-  padding: 50px 0 50px 50px;
+  max-height: 658px;
+  padding: 136px 0 0px 0px;
 }
 
 /* MOBILE STYLES */
