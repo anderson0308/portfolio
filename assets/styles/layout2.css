@@ -2,12 +2,22 @@ body {
     background-color: #000000;
 }
 
-.bubbles-block {
+.block{
     width: 100%;
-    background: url("../images/bubbles/bubbles-cover.png") center top no-repeat; 
+    background: url("../images/bubbles/bubbles-cover.png") center top no-repeat;
     background-size: cover;
-    height: 612px;
+    height:612px;
 }
+
+.block.omviser {
+    background: url("../images/omviser/cover.")
+}
+
+.block.twitter {
+    background: url("../images/twitter/cover.png") center top no-repeat;
+}
+
+
 
 .container {
     max-width: 1000px;
@@ -57,12 +67,88 @@ body {
   line-height: 24px;
 }
 
+
+/* Margins & Widths */
+.w-1000 {
+    max-width: 69.4444%;
+    margin-left: 15.2778%;
+}
+.w-980 {
+    max-width: 68.0555%;
+    margin-left: 16%;
+}
+
+.w-768 {
+    max-width: 83.3333%;
+    margin: 28px 0 28px 12.2917%;
+}
+
+.w-652 {
+    max-width: 72.364%;
+    margin-left: 8.2131%;
+    margin-top: 13.692228%;
+    margin-bottom: 10.465116%;
+}
+
+.w-620 {
+    max-width: 43.0555%;
+    margin-left: 6.9445%;
+}
+
+.w-580 {
+    max-width: 40.2777%;
+}
+
+.w-572 {
+    max-width: 62.9166%;
+    margin: 28px 0 28px 12.2917%;
+}
+
+.w-538 {
+    max-width: 37.36%;
+    margin-left: 16%;
+    margin-right: 2.36%;
+}
+
+.w-408 {
+    max-width: 28.333%;
+}
+
+.w-236 {
+    max-width: 18.153846%;
+    margin-left: 12.538461%;
+    margin-top: 19.245%;
+}
+
 .mt-104 {
     margin-top: 104px;
 }
 
 .m-80 {
     margin-top: 80px;
+}
+
+.m-48 {
+    margin-top: 48px;
+}
+
+.m-34 {
+    margin-top: 34px;
+}
+
+.m-22 {
+    margin-top: 22px;
+}
+
+.m-14 {
+    margin-top: 14px;
+}
+
+.m-15 {
+    position: absolute; 
+    left: 0;
+    right: 0; 
+    margin-top: 20%;
 }
 
 .m-104 {
@@ -101,6 +187,23 @@ body {
     margin-top: 32px;
     line-height: 110%; 
 }
+
+.column-intro {
+    display: flex;
+    align-content: flex-start;
+}
+
+.column-intro.omviser {
+    max-width: 100%;
+}
+
+.column-intro h6 {
+    width: 333.33px;
+}
+
+.grey02 {
+    color: #414141;
+}
   
 .grey04 {
     color: #a1a1a1;
@@ -109,7 +212,83 @@ body {
 .grey05 {
     color: #f5f5f5;
 }
-  
+
+
+/* Cards */
+.quote-card {
+    margin: 0 auto;
+    border-radius: 17px;
+    min-height: 422px;
+    max-height: 688px;
+    max-width: 1200px;
+    position: relative;
+}
+
+.solution-card {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 17px;
+    min-height: 298px;
+    max-width: 90.2777%;
+    position: relative;
+    background-color: #1e1e1e;
+}
+
+.sampler-card {
+    margin-top: 80px;
+    max-width: 100%;
+    height: fit-content;
+    background-color: #f5f5f5;
+}
+
+.survey-card {
+    margin: 0 auto;
+    border-radius: 17px;
+    height: fit-content;
+    max-width: 80.556%;
+    position: relative;
+    background-color: #1e1e1e;
+}
+
+.quote-card.omviser {
+    background: linear-gradient(
+        180deg,
+        #9290FF 0%,
+        #4643CD 100%
+    );
+}
+
+.quote-card.twitter {
+    background: linear-gradient(
+        180deg,
+        #69A2E4 0%,
+        #4078DD 100%
+    );
+}
+
+.quote-card.sephora {
+    background: linear-gradient(
+        180deg,
+        #E74F8C 0%,
+        #E5633E 100%
+        );
+}
+
+.quote-card-text {
+     padding: 145px 15.833%;
+     text-align: center;
+}
+
+.sampler-card-title {
+    color: #007AFF;
+    width: 370px;
+    margin-top: 20.9205%;
+}
+
+.sampler-text {
+    margin-left: 7.857143%;
+}
 /* MOBILE STYLES */
 /* @media (max-width: 600px) {
   
