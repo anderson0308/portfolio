@@ -12,13 +12,20 @@ body {
 .resume-block {
   width: 100%;
   background: url("../images/resume/resume.png") center top no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 871.88px;
 }
 
 .bubbles-block {
   width: 100%;
   background: url("../images/bubbles/bubbles-cover.png") center top no-repeat; 
+  background-size: cover;
+  height: 612px;
+}
+
+.bec-block { 
+  width: 100%; 
+  background: url("../assets/images/bec/cover.png") center top no-repeat; 
   background-size: cover;
   height: 612px;
 }

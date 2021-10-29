@@ -43,7 +43,11 @@ h3 {
 }
 
 .sephora h3 {
-    color: #F1453D;
+    color: #e5633e;
+}
+
+.cc h3 {
+    color: #FF375F; 
 }
 
 h4 {
@@ -85,6 +89,12 @@ p {
 
 .p5 {
     font-size: 14px;
+}
+
+.center {
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 16px;
 }
 
 .yellow {
