@@ -83,9 +83,27 @@ body {
 }
   
 .about-me p {
-  margin: 12px 0 12px 0;
-  line-height: 24px;
+    margin: 12px 0 12px 0;
+    line-height: 24px;
 }
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+  
+.card {
+      display: inline-block;
+}
+
+
+
 
 
 /* Margins & Widths */
@@ -142,6 +160,10 @@ body {
 .w-768 {
     max-width: 83.3333%;
     margin: 28px 0 28px 12.2917%;
+}
+
+.w-663 {
+    width: 46.041667%;
 }
 
 .w-652 {
