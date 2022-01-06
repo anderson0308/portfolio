@@ -61,6 +61,10 @@ body {
   margin-top: 64px;
 }
 
+.links {
+  text-decoration: none !important;
+}
+
 
 /* Photo on the home page */
 .profile {
@@ -253,7 +257,7 @@ body {
 .footer-links a {
   margin: 0 16px;
   text-decoration: none;
-  color: black;
+  color: #1e1e1e;
   font-weight: 500;
 }
 
