@@ -7,7 +7,7 @@
   
 /* Set font for all pages to SF */
 body {
-font-family: "San Francisco", sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
   
 .text-center {
@@ -15,81 +15,87 @@ font-family: "San Francisco", sans-serif;
 }
   
 h1 {
-    font-size: 96px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-h2 {
-    font-size: 80px;
-}
-
-h3 {
-    font-size: 64px;
+    font-size: 56px;
+    font-weight: 650;
     margin-top: 104px;
 }
 
-.amazon h3 {
-    color: #64DDF2;
-
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 178px;
+    color: #1e1e1e;
 }
 
-.omviser h3 {
-    color: #5E5CE6;
-}
-
-.twitter h3 {
-    color: #007aff
-}
-
-.sephora h3 {
-    color: #e5633e;
-}
-
-.cc h3 {
-    color: #FF375F; 
+h3 {
+    font-size: 42px;
+    margin-top: 48px;
+    color: #414141;
 }
 
 h4 {
-    font-size: 42px;
-    color: #f5f5f5;
+    font-size: 32px;
     margin-top: 64px;
 }
 
 h5 {
-    font-size: 32px;
-    color: #6e6e6e;
+    font-size: 24px;
+    font-weight: 550;
+    color: #414141;
     margin-top: 48px;
 }
 
-h6 {
-    font-size: 28px;
-    color: #f5f5f5;
+h6{
+    font-size: 22px;
+    margin-top: 20px; 
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.6px;
 }
 
 p {
-    font-size: 18px;
-    line-height: 140%;
-    color: #a1a1a1;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #f5f5f5;
+    text-align: center;
 }
 
-.p2 {
-    font-size: 24px;
-}
-
-.p3, li {
+li {
     font-size: 22px;
-    color: #a1a1a1;
-    margin-top: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.6px;
 }
 
-.p4 {
-    font-size: 16px;
+.amazonlmx h1 {
+    color: #64D2FF;
 }
 
-.p5 {
-    font-size: 14px;
+.twitter h1, .chase h1, .active:hover { 
+    color: #007AFF;
 }
+
+.omviser h1, .purple {
+    color: #5E5CE6;
+}
+
+.sephora h1, .actives:hover {
+    color: #FF3B30;
+}
+
+.bubbles h1, .yellow {
+    color: #FFD60A;
+}
+
+.cc h1, .pink {
+    color: #FF557D
+}
+
+.bec h1, .orange {
+    color: #FF9F0A;
+}
+
 
 .center {
     text-align: center;
@@ -97,13 +103,6 @@ p {
     margin-top: 16px;
 }
 
-.yellow {
-    color: #ffd60a;
-    text-align: center;
-    margin-left: 14.88%;
-    margin-right: 14.88%;
-    margin-top: 104px;
-}
 .footer > .container > hr {
     height: 1px;
     border: none;
@@ -113,15 +112,22 @@ p {
 .footer-title {
     font-weight: 600;
     font-size: 24px;
+    text-align: left;
+    color: #1e1e1e;
 }
   
 .footer-subtitle {
     color: #a1a1a1;
-    font-size: 18;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 116%;
+    margin-top: 4px;
+    text-align: left;
 }
   
 .footer-subtitle a {
     color: #a1a1a1;
+    text-decoration: none;;
 }
   
 /* MOBILE STYLES */
