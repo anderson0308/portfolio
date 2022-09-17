@@ -85,7 +85,7 @@ li {
 }
 
 .bubbles h1, .yellow {
-    color: #FFD60A;
+    color: #FFD60A !important;
 }
 
 .cc h1, .pink {
