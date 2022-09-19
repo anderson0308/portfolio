@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://kit.fontawesome.com/fdfc697548.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/styles/home_navigation.css" />
     <link rel="stylesheet" href="./assets/styles/layout2.css" />
     <link rel="stylesheet" href="./assets/styles/text-projects.css" />
@@ -59,8 +60,9 @@
     <div class="container"> 
       <div>
         <h5>Overview</h5>
-        <h6>Prototype micro-interactions components in Figma to speed up design production and user testing prototypes and experience.
-        Also, worked on two different internal products within the Financial Team. Here I combed through and created specifications for UI in various screens and carried out usability testing for them before sending them off to developers. </h6>
+        <h6>Prototype micro-interaction on Design Ops team core components in Figma to speed up design production and user testing prototypes. 
+        Worked on two different internal products of the Corporate Financial team; here, I combed through and created specifications for UI in various screens and carried out usability testing for them before sending them off to developers. 
+        Lastly, designed a welcome post card that would be included in the Design Ops team new-hire swag box. </h6>
       </div>
 
       <div class="context-row">
@@ -81,14 +83,113 @@
       </div>
     </div>
 
-    <!--Project Project Overview-->
+    <!--Micro-Interaction Overview-->
     <div class="container">
       <h1>Micro-Interactions</h1>
-      <h6>Microinteractions are trigger-feedback pairs in which (1) the trigger can be a user action or an alteration in the system’s state; (2) the feedback is a narrowly targeted response to the trigger and is communicated through small, highly contextual (usually visual) changes in the user interface.</h6>
+      <h6>Microinteractions are trigger-feedback pairs in which:</h6>
+      <ol>
+        <li>The trigger can be a user action or an alteration in the system’s state;</li>
+        <li>The feedback is a narrowly targeted response to the trigger and is communicated through small, highly contextual (usually visual) changes in the user interface.</li>
+      </ol>
+      <h3>Importance of Micro-Interactions</h3>
+      <h6>One of the greatest joys of using technology comes through user empowerment and engagement. 
+      An enjoyable experience means more than just usability — it needs to be engaging, and that is where microinteractions can play a macro role, by positively contributing to the look-and-feel of a product or service. Micro-Interactions are essential because:</h6>
+      <ul>They make the user experience much more rewarding</ul>
+      <ul>They provide instant and relevant feedback about a completed action to a user</ul>
+      <ul>They communicate information about certain elements, like whether or not it’s interactive</ul>
+      <h3>Designing Micro-Interactions</h3>
+      <h6>To make the good Micro-Interaction, the followed steps are necessary:</h6>
+      <ol>
+        <li>Put yourself in the users shoes and use all that you have to figure out how they use your app.</li>
+        <li>Create functional animations. Animations which have not only an aesthetic but which are able to enhance the user experience.</li>
+        <li>Have fun and entertain your users. What the user feels when they use the app is the reason behind the fact that they keep using it. If the user enjoys the experience and finds it pleasant, they return.</li>
+        <li>Do not be annoying. Too many animations have the opposite effect on users. Annoying users make them stay away from your app.</li>
+        <li>Use a human language and non-technical. A funny and ironic copy can make you forget for a moment how frustrating it might be a blank page within the app.</li>
+      </ol>
+      <h3>Demo</h3>
+      <h6>Here is a link to design 
+        <a class="blu" href="https://www.figma.com/proto/EvSJw0VeYoccEml9B76KSj/Micro-Interactions-on-Figma?page-id=204%3A226&node-id=217%3A240&viewport=-784%2C-121%2C0.23&scaling=min-zoom">memo</a> 
+      presenting Micro-Interactions on the team's core components.</h6>
     </div>
+
+    <!--Welcome Post Card-->
+    <div class="container">
+      <h1>Welcome Post Card</h1>
+    </div>
+
+    <div class="screen-card">
+      <div id="mySecond" class="first">
+        <div class="top">
+          <div class="left-icon">
+            <i class="fa-solid fa-chevron-left fa-2xl inactive"></i>
+          </div>
+          <div>
+            <img class="p-32" src="./assets/images/chase/front-card.png" alt="Welcome Front Card">
+          </div>
+          <div>
+            <i onclick="myFunction()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot blue"></span>
+          <span class="dot inactive"></span>
+        </div>
+      </div>
+
+      <div id="myFirst" class="second">
+        <div class="top">
+          <div class="left-icon">
+            <i onclick="myFunction2()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+          </div>
+          <div>
+            <img class="p-32" src="./assets/images/chase/back-card.png" alt="Welcome Back Card">
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right fa-2xl inactive"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot inactive"></span>
+          <span class="dot blue"></span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      myFirst.style.display = 'none'
+      function myFunction() {
+        var x = document.getElementById("myFirst");
+        var y = document.getElementById("mySecond");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+        }
+      }
+
+      function myFunction2() {
+        var x = document.getElementById("mySecond");
+        var y = document.getElementById("myFirst");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+        }
+      }
+    </script>
 
     <div class="container">
       <h1>Key Takeaways</h1>
+      <h6>Being a designer of Chase's internal platform team gave me a glimpse of the company's design infrastructure from the perspective of how designers can consult product teams about scalable design system patterns and guidelines that are applied in their customized solutions to create seamless end-to-end experiences.
+      I was able to quickly acclimate and get comfortable with the design methodology used by the tech sector while preserving design quality by producing instructional resources for inclusive design, managing individual project ownership, and communicating with cross-functional partners.</h6>
+      <h6>Sometimes when my cross-functional partners provided conflicting feedback it was challenging to find a balance and bring my designs to an agreement, but I learned to understand and empathize with their positions. A product manager might advocate for designs that align more closely with the product road map while an engineer might prefer designs that can be implemented effectively.
+      Understanding different internal goals and trying to bridge the gap was a fun challenge</h6>
     </div>
   </body>
 

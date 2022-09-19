@@ -176,6 +176,17 @@ body {
     color: #f5f5f5;
 }
 
+/* omviser Page */
+.f-title {
+    margin: -8px 0 32px 32px;
+}
+
+.screen-card.omviser img {
+    max-width: 76%;
+    margin-left: 14%;
+    margin-bottom: 32px;
+}
+
 
 /* Cornell Creatives Page */
 .f-layout {
@@ -212,6 +223,10 @@ body {
 
 .filters h4 {
     margin: 48px 0 88px 16%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {

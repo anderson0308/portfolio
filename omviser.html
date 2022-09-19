@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://kit.fontawesome.com/fdfc697548.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/styles/home_navigation.css" />
     <link rel="stylesheet" href="./assets/styles/layout2.css" />
     <link rel="stylesheet" href="./assets/styles/text-projects.css" />
@@ -157,45 +158,302 @@
     <div class="container">
       <h1>Design</h1>
       <h3>Final Screens</h3>
-      <h6 class="p3">Through gauging user and team feedback from my low-fidelity designs, I moved towards designing high-fidelity prototypes. By exploring multiple iterations through high-fidelity mockups and employing rapid iterative usability testing measures, my designs were validated directly by user data.</h6>
-      <h4>Home Page</h4>
+      <h6 class="p3">Through gauging users and team feedback from my low-fidelity designs, I moved towards designing high-fidelity prototypes. By exploring multiple iterations through high-fidelity mockups and employing rapid iterative usability testing measures, my designs were validated directly by user data.</h6>
     </div>
 
-    <div class="preview m-64">
-      <img class="mtb-32" src="./assets/images/omviser/home-page.png" alt="Porduct Preview">
+    <div class="screen-card omviser">
+      <div id="myFirst" class="first">
+        <div class="top">
+          <div class="left-icon">
+            <i class="fa-solid fa-chevron-left fa-2xl inactive"></i>
+          </div>
+          <div>
+            <h4 class="f-title blu">Home Page</h4>
+            <img src="./assets/images/omviser/home-page.png" alt="">
+          </div>
+          <div>
+            <i onclick="myFunction()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot blue"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+        </div>
+      </div>
+
+      <div id="mySecond" class="second">
+        <div class="top">
+          <div class="left-icon">
+            <i onclick="myFunction2()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+          </div>
+          <div>
+            <h4 class="f-title blu">Student Step Page</h4>
+            <img src="./assets/images/omviser/step-page.png" alt="">
+          </div>
+          <div>
+            <i onclick="myFunction3()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot inactive"></span>
+          <span class="dot blue"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+        </div>
+      </div>
+
+      <div id="myThird" class="third">
+        <div class="top">
+          <div class="left-icon">
+            <i onclick="myFunction4()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+          </div>
+          <div>
+            <h4 class="f-title blu">Connect Pop-Up Page</h4>
+            <img src="./assets/images/omviser/connect-page.png" alt="">
+          </div>
+          <div>
+            <i onclick="myFunction5()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot blue"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+        </div>
+      </div>
+
+      <div id="myFourth" class="fourth">
+        <div class="top">
+          <div class="left-icon">
+            <i onclick="myFunction6()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+          </div>
+          <div>
+            <h4 class="f-title blu">Email Confirmation Page</h4>
+            <img src="./assets/images/omviser/confirmation-page.png" alt="">
+          </div>
+          <div>
+            <i onclick="myFunction7()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot blue"></span>
+          <span class="dot inactive"></span>
+        </div>
+      </div>
+
+      <div id="myFifth" class="fifth">
+        <div class="top">
+          <div class="left-icon">
+            <i onclick="myFunction8()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+          </div>
+          <div>
+            <h4 class="f-title blu">Podcast Page</h4>
+          <img src="./assets/images/omviser/podcast-page.png" alt="">
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right fa-2xl inactive"></i>
+          </div>
+        </div>
+        <div class="text-center">
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot inactive"></span>
+          <span class="dot blue"></span>
+        </div>
+      </div>
     </div>
 
-    <div class="container">
-      <h4>Student Step Page</h4>
-    </div>
+    <script>
+      mySecond.style.display = 'none'
+      myThird.style.display = 'none'
+      myFourth.style.display = 'none'
+      myFifth.style.display = 'none'
+      function myFunction() {
+        var x = document.getElementById("mySecond");
+        var y = document.getElementById("myFirst");
+        var z = document.getElementById("myThird");
+        var a = document.getElementById("myFourth");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="preview m-64">
-      <img class="mtb-32" src="./assets/images/omviser/step-page.png" alt="Porduct Preview">
-    </div>
+      function myFunction2() {
+        var x = document.getElementById("myFirst");
+        var y = document.getElementById("mySecond");
+        var z = document.getElementById("myThird");
+        var a = document.getElementById("myFourth");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="container">
-      <h4>Connect Pop-Up Page</h4>
-    </div>
+      function myFunction3() {
+        var x = document.getElementById("myThird");
+        var y = document.getElementById("mySecond");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("myFourth");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="preview m-64">
-      <img class="mtb-32" src="./assets/images/omviser/connect-page.png" alt="Porduct Preview">
-    </div>
+      function myFunction4() {
+        var x = document.getElementById("mySecond");
+        var y = document.getElementById("myThird");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("myFourth");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="container">
-      <h4>Email Confirmation Page</h4>
-    </div>
+      function myFunction5() {
+        var x = document.getElementById("myFourth");
+        var y = document.getElementById("myThird");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("mySecond");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="preview m-64">
-      <img class="mtb-32" src="./assets/images/omviser/confirmation-page.png" alt="Porduct Preview">
-    </div>
+      function myFunction6() {
+        var x = document.getElementById("myThird");
+        var y = document.getElementById("myFourth");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("mySecond");
+        var b = document.getElementById("myFifth");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="container">
-      <h4>Podcast Page</h4>
-    </div>
+      function myFunction7() {
+        var x = document.getElementById("myFifth");
+        var y = document.getElementById("myFourth");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("mySecond");
+        var b = document.getElementById("mythird");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
 
-    <div class="preview m-64">
-      <img class="mtb-32" src="./assets/images/omviser/podcast-page.png" alt="Porduct Preview">
-    </div>
+      function myFunction8() {
+        var x = document.getElementById("myFourth");
+        var y = document.getElementById("myFifth");
+        var z = document.getElementById("myFirst");
+        var a = document.getElementById("mySecond");
+        var b = document.getElementById("mythird");
+        if (x.style.display === "none") {
+          x.style.display = "block",
+          y.style.display = "none";
+          z.style.display = "none";
+          a.style.display = "none";
+          b.style.display = "none";
+        }
+        else {
+          x.style.display = "none",
+          y.style.display = "block";
+          z.style.display = "block";
+          a.style.display = "block";
+          b.style.display = "block";
+        }
+      }
+    </script>
 
     <div class="container">
       <h1>UI Kit</h1>
