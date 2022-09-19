@@ -76,7 +76,7 @@ li {
     color: #007AFF;
 }
 
-.omviser h1, .purple {
+.omviser h1, .purple, .act:hover {
     color: #5E5CE6;
 }
 
