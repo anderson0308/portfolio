@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 54px;
+  font-size: 24px;
   font-weight:  normal;
 }
 
@@ -55,14 +55,18 @@ p {
   margin-top: 4px;
 }
 
+.p1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: #1e1e1e;
 }
 
 .gray {
-  color: #6e6e6e;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .yellow {

@@ -53,11 +53,16 @@
 .w-1296 {
     max-width: 90%;
     margin-top: 64px;
-    margin-left: 5%;
+    justify-content: space-around;
 }
 
 .w-992 {
     max-width: 69%;
+}
+
+.w-990 {
+    max-width: 68%;
+    margin-top: 32px;
 }
 
 .w-538 {

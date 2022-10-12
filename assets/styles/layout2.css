@@ -10,17 +10,22 @@ body {
 }
 
 .preview {
-    width: 90%;
-    padding-top: 152px;
+    width: 68%;
+    padding-top: 104px;
     padding-left: 11.5%;
     padding-right: 11.5%px; 
     background-color: #ffffff;
     margin: 0px auto;
-    border-radius: 60px;
+    border-radius: 48px;
 }
 
 .preview img {
     width: 85.5%;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
 }
 
 .context-row {
