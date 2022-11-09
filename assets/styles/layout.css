@@ -41,12 +41,6 @@ body {
   margin: 56px 64px
 }
 
-.project-card.bec img {
-  height: 154px;
-  width: fit-content;
-  margin: 56px 80px;
-}
-
 .project-card.mobile img {
   width: 154px;
   max-height: 202px;
