@@ -38,6 +38,7 @@ body {
 .project-card.desktop img {
   width: 252px;
   height: fit-content;
+  max-height: 154px;
   margin: 56px 64px
 }
 
