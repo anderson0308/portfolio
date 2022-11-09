@@ -1,0 +1,397 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.jumbotron {
+    height: fit-content;
+}
+
+.silver-block {
+    background-color: #EEEEEE;
+    padding-bottom: 16px;
+}
+
+.point {
+    height: 3px;
+    width: 3px;
+    margin: 3px 6px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: inline-block;
+}
+
+.underline { 
+    height: 2px;
+    width: 92px;
+    background-color: #000000;
+    display: inline-block;
+}
+
+.preview.desktop {
+    max-width: 718px;
+    height: fit-content;
+    margin-top: 184px;
+}
+
+.preview.mobile {
+    max-width: 718px;
+    height: fit-content;
+    margin-top: 196px;
+}
+
+.overview-grid {
+    max-width: 1232px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+
+.content-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    margin: 0 auto;
+}
+
+.screen-card {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 48px 40px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+}
+
+.designs-title {
+    margin-top: -8px;
+    text-align: center;
+}
+
+.screen-card img {
+    max-width: 72%;
+    margin: 32px 14% 32px 14%;
+}
+
+.screen-card.mobile img {
+    max-width: 88%;
+    margin: 32px 6% 32px 6%;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    width: 24px;
+    margin-top: 244px;
+    color: #1E1E1E;
+}
+
+.inactive {
+    color: #6E6E6E;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #6E6E6E;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.grape {
+    background-color: #5E5CE6;
+}
+
+.blue {
+    background-color: #007AFF;
+}
+
+
+
+
+
+
+
+
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.context-row {
+    display: flex;
+    margin: 32px auto;
+    justify-content: space-between;
+}
+
+.solution-card {
+    width: 90%;
+    padding: 112px 11.5%;
+    background-color: #1e1e1e;
+    border-radius: 40px;
+}
+
+.quote-card {
+    width: fit-content;
+    padding: 84px 92px;
+    border-radius: 40px;
+}
+
+
+.two-columns img {
+    max-width: 100%;
+}
+
+.column-text {
+    max-width: 34%;
+    margin-top: 64px;
+}
+  
+.column-text h2, .phrase-card h2 {
+    font-size: 80px;
+    margin-top: 32px;
+}
+  
+.column-text h6 {
+    margin-top: 32px;
+    line-height: 110%;
+}
+
+.phrase-card {
+    max-width: 90%;
+    margin: 64px 5% 0 5%;
+    border-radius: 48px;
+    padding: 180px 188px 164px 192px;
+    background-color: #ffffff;
+}
+
+
+/* Twitter Page */ 
+
+.exploration img {
+    max-width: 288px;
+    margin-left: -24px;
+}
+
+.screen-card {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 48px 40px;
+    border-radius: 4px;
+    background-color: #EEEEEE;
+}
+
+
+
+
+.red {
+    background-color: #FF3B30;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between; 
+}
+
+/* Cornell Creatives Page */
+.f-layout {
+    display: flex;
+    margin: 64px 5% 0 5%;
+    justify-content: space-between;
+}
+
+.filter {
+    max-width: 62%;
+    border-radius: 48px;
+    background-color: #ffffff;
+}
+
+.filter img {
+    max-width: 100%;
+    border-radius: 0 0 48px 0;
+}
+
+.filter h4 {
+    margin: 48px 0 58px 10%;
+}
+
+.filters {
+    max-width: 34%;
+    border-radius: 48px;
+    background-color: #ffffff;
+}
+
+.filters img {
+    max-width: 72%;
+    margin-left: 14%;
+}
+
+.filters h4 {
+    margin: 48px 0 88px 16%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: -104px 0 104px -7.5%;
+}
+
+/* Footer */
+.footer-links {
+    display: flex;
+    flex-direction: row;
+}
+  
+.footer-links h5 {
+    margin: 0 0 0 32px;
+}
+  
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 154px 12px 24px 12px;
+}
+  
+.column-iterations {
+    display: flex;
+    justify-content: center;
+}
+
+/* MOBILE STYLES */
+/* @media (max-width: 600px) {
+  
+} */
+  
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+/*ol, ul {
+    list-style: none;
+} */
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  

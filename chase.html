@@ -15,8 +15,8 @@
     />
     <script src="https://kit.fontawesome.com/fdfc697548.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/styles/home_navigation.css" />
-    <link rel="stylesheet" href="./assets/styles/layout2.css" />
-    <link rel="stylesheet" href="./assets/styles/text-projects.css" />
+    <link rel="stylesheet" href="./assets/styles/project-layout.css" />
+    <link rel="stylesheet" href="./assets/styles/text.css" />
     <link rel="stylesheet" href="./assets/styles/margins.css" />
   </head>
 
@@ -27,7 +27,7 @@
         <input type="checkbox" id="nav-check" />
         <div class="nav-header">
           <div class="nav-title">
-            <a class="title" href="index.html">Ardensa Cartajona</a>
+            <a class="title" href="index.html">ardensa cartajona</a>
           </div>
         </div>
         <div class="nav-btn">
@@ -39,123 +39,146 @@
         </div>
 
         <div class="nav-links">
-          <a href="index.html">Projects</a>
-          <a href="extra.html">Extra</a>
-          <a href="aboutme.html">About</a>
-          <a href="resume.html">Resume</a>
+          <a href="index.html">projects</a>
+          <a href="extra.html">extra</a>
+          <a href="aboutme.html">about</a>
+          <a href="resume.html">resume</a>
         </div>
       </nav>
     </div>
-    
-    <div class="text-center">
-      <h2>JPMorgan Chase</h2>
-      <h1 class="m-40">What Matters Most</h1>
+
+    <div class="jumbotron">
+      <div class="silver-block">
+        <div class="overview-grid">
+          <div>
+            <h2 class="m-244">jpmorgan chase & co.</h2>
+            <span class="underline"></span>
+            <p class="w-398 m-28">
+              Prototype micro-interactions components in Figma to speed up design production and user testing prototypes and experience.
+              Supported two internal products for the Corporate Financial team to redesign seamless end-to-end experiences while using design system patterns and guidelines. 
+            </p>
+            <h5 class="m-204">ux designer<span class="point"></span>2 month internship<span class="point"></span>design ops team</h5>
+          </div>
+
+          <div>
+            <img class="preview desktop" src="./assets/images/chase/preview.png" alt="Product Preview">
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="preview m-104">
-      <img src="./assets/images/chase/preview.png" alt="Product Preview">
-    </div>
+    <div class="container">
+      <!--Micro-Interactions Overview-->
+      <div class="content-grid m-204">
+        <div>
+          <h2 class="blu">micro-interactions</h2>
+        </div>
 
-    <!--Overview-->
-    <div class="container"> 
+        <div class="w-588">
+          <h6 class="m-0">Microinteractions are trigger-feedback pairs in which: 
+          1. The trigger can be a user action or an alteration in the system’s state;</li>
+          2. The feedback is a narrowly targeted response to the trigger and is communicated through small, highly contextual (usually visual) changes in the user interface.
+          </h6>
+          <h3 class="m-40">importance of micro-interactions</h3>
+          <h6>
+            One of the greatest joys of using technology comes through user empowerment and engagement. 
+            An enjoyable experience means more than just usability — it needs to be engaging, and that is
+            where micro-interactions can play a macro role, by positively contributing to the look-and-feel of a product or service. Micro-Interactions are essential because:
+          </h6>
+          <ul>
+            <li>They make the user experience much more rewarding</li>
+            <li>They provide instant and relevant feedback about a completed action to a user</li>
+            <li>They communicate information about certain elements, like whether or not it’s interactive</li>
+          </ul>
+          <h3 class="m-40">designing micro-interactions</h3>
+          <h6>To make the good Micro-Interaction, the following steps are necessary:</h6>
+          <ol>
+            <li>Put yourself in the users' shoes and use all that you have to figure out how they use your app.</li>
+            <li>Create functional animations. Animations that have not only an aesthetic but which can enhance the user experience.</li>
+            <li>Have fun and entertain your users. What the user feels when they use the app is the reason behind the fact that they keep using it. If the user enjoys the experience and finds it pleasant, they return.</li>
+            <li>Do not be annoying. Too many animations have the opposite effect on users. Annoying users make them stay away from your app.</li>
+            <li>Use human language and non-technical. A funny and ironic copy can make you forget for a moment how frustrating it might be a blank page within the app.</li>
+          </ol>
+          <h3 class="m-40">demo</h3>
+          <h6>
+            Here is a link to design 
+            <a class="blu" href="https://www.figma.com/proto/EvSJw0VeYoccEml9B76KSj/Micro-Interactions-on-Figma?page-id=204%3A226&node-id=217%3A240&viewport=-784%2C-121%2C0.23&scaling=min-zoom">memo</a> 
+            presenting Micro-Interactions on the team's core components.
+          </h6>
+        </div>
+      </div>
+      
+      <!--Welcome Postcard-->
       <div>
-        <h5>Overview</h5>
-        <h6>Prototype micro-interaction on Design Ops team core components in Figma to speed up design production and user testing prototypes.
-        Worked on two different internal products of the Corporate Financial team; here, I combed through and created specifications for UI on various screens and carried out usability testing for them before sending them off to developers. 
-        Lastly, designed a welcome postcard that would be included in the Design Ops team new-hire swag box.</h6>
+        <h2 class="m-204 blu">welcome post card</h2>
+        <div class="screen-card">
+          <div id="mySecond" class="first">
+            <div class="top">
+              <div class="left-icon">
+                <i class="fa-solid fa-chevron-left fa-2xl inactive"></i>
+              </div>
+              <div>
+                <img class="p-32" src="./assets/images/chase/front-card.png" alt="Welcome Front Card">
+              </div>
+              <div>
+                <i onclick="myFunction()" class="fa-solid fa-chevron-right fa-2xl active"></i>
+              </div>
+            </div>
+            <div class="text-center">
+              <span class="dot blue"></span>
+              <span class="dot inactive"></span>
+            </div>
+          </div>
+    
+          <div id="myFirst" class="second">
+            <div class="top">
+              <div class="left-icon">
+                <i onclick="myFunction2()" class="fa-solid fa-chevron-left fa-2xl active"></i>
+              </div>
+              <div>
+                <img class="p-32" src="./assets/images/chase/back-card.png" alt="Welcome Back Card">
+              </div>
+              <div>
+                <i class="fa-solid fa-chevron-right fa-2xl inactive"></i>
+              </div>
+            </div>
+            <div class="text-center">
+              <span class="dot inactive"></span>
+              <span class="dot blue"></span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="context-row">
+      <div class="content-grid m-204">
         <div>
-          <h5>Role</h5>
-          <h6>Product Design Intern</h6>
+          <h2 class="blu">key takeaways</h2>
         </div>
 
-        <div>
-          <h5>Timeline</h5>
-          <h6>June 2022 - July 2022</h6>
-        </div>
-
-        <div>
-          <h5>Team</h5>
-          <h6>Design Ops Team</h6>
+        <div class="w-588">
+          <h6 class="m-0">
+          Being a designer of Chase's internal platform team gave me a glimpse of the company's design infrastructure from the perspective of how designers can consult product teams about scalable design system patterns and guidelines that are applied in their customized solutions to create seamless end-to-end experiences.
+          I was able to quickly acclimate and get comfortable with the design methodology used by the tech sector while preserving design quality by producing instructional resources for inclusive design, managing individual project ownership, and communicating with cross-functional partners.
+          </h6>
+          <h6>Sometimes when my cross-functional partners provided conflicting feedback, it was challenging to find a balance and bring my designs to an agreement, but I learned to understand and empathize with their positions. A product manager might advocate for designs that align more closely with the product road map while an engineer might prefer designs that can be implemented effectively. Understanding different internal goals and trying to bridge the gap was a fun challenge.</h6>
         </div>
       </div>
     </div>
 
-    <!--Micro-Interaction Overview-->
-    <div class="container">
-      <h1>Micro-Interactions</h1>
-      <h6>Microinteractions are trigger-feedback pairs in which:</h6>
-      <ol>
-        <li>The trigger can be a user action or an alteration in the system’s state;</li>
-        <li>The feedback is a narrowly targeted response to the trigger and is communicated through small, highly contextual (usually visual) changes in the user interface.</li>
-      </ol>
-      <h3>Importance of Micro-Interactions</h3>
-      <h6>One of the greatest joys of using technology comes through user empowerment and engagement. 
-      An enjoyable experience means more than just usability — it needs to be engaging, and that is where micro-interactions can play a macro role, by positively contributing to the look-and-feel of a product or service. Micro-Interactions are essential because:</h6>
-      <ul>
-        <li>They make the user experience much more rewarding</li>
-        <li>They provide instant and relevant feedback about a completed action to a user</li>
-        <li>They communicate information about certain elements, like whether or not it’s interactive</li>
-      </ul>
-      <h3>Designing Micro-Interactions</h3>
-      <h6>To make the good Micro-Interaction, the following steps are necessary:</h6>
-      <ol>
-        <li>Put yourself in the users' shoes and use all that you have to figure out how they use your app.</li>
-        <li>Create functional animations. Animations that have not only an aesthetic but which can enhance the user experience.</li>
-        <li>Have fun and entertain your users. What the user feels when they use the app is the reason behind the fact that they keep using it. If the user enjoys the experience and finds it pleasant, they return.</li>
-        <li>Do not be annoying. Too many animations have the opposite effect on users. Annoying users make them stay away from your app.</li>
-        <li>Use human language and non-technical. A funny and ironic copy can make you forget for a moment how frustrating it might be a blank page within the app.</li>
-      </ol>
-      <h3>Demo</h3>
-      <h6>Here is a link to design 
-        <a class="blu" href="https://www.figma.com/proto/EvSJw0VeYoccEml9B76KSj/Micro-Interactions-on-Figma?page-id=204%3A226&node-id=217%3A240&viewport=-784%2C-121%2C0.23&scaling=min-zoom">memo</a> 
-      presenting Micro-Interactions on the team's core components.</h6>
-    </div>
-
-    <!--Welcome Post Card-->
-    <div class="container">
-      <h1>Welcome Post Card</h1>
-    </div>
-
-    <div class="screen-card">
-      <div id="mySecond" class="first">
-        <div class="top">
-          <div class="left-icon">
-            <i class="fa-solid fa-chevron-left fa-2xl inactive"></i>
-          </div>
-          <div>
-            <img class="p-32" src="./assets/images/chase/front-card.png" alt="Welcome Front Card">
-          </div>
-          <div>
-            <i onclick="myFunction()" class="fa-solid fa-chevron-right fa-2xl active"></i>
-          </div>
-        </div>
-        <div class="text-center">
-          <span class="dot blue"></span>
-          <span class="dot inactive"></span>
-        </div>
+    <!-- Footer -->
+    <div class="w-1232 footer">
+      <div>
+        <h5>copyright © 2022 ardensa. all rights reserved.</h5>
       </div>
-
-      <div id="myFirst" class="second">
-        <div class="top">
-          <div class="left-icon">
-            <i onclick="myFunction2()" class="fa-solid fa-chevron-left fa-2xl active"></i>
-          </div>
-          <div>
-            <img class="p-32" src="./assets/images/chase/back-card.png" alt="Welcome Back Card">
-          </div>
-          <div>
-            <i class="fa-solid fa-chevron-right fa-2xl inactive"></i>
-          </div>
-        </div>
-        <div class="text-center">
-          <span class="dot inactive"></span>
-          <span class="dot blue"></span>
-        </div>
+        
+      <div class="footer-links">
+        <h5>email</h5>
+        <h5>linkedin</h5>
+        <h5>spotify</h5>
       </div>
     </div>
+    
+
 
     <script>
       myFirst.style.display = 'none'
@@ -185,44 +208,5 @@
         }
       }
     </script>
-
-    <div class="container">
-      <h1>Key Takeaways</h1>
-      <h6>Being a designer of Chase's internal platform team gave me a glimpse of the company's design infrastructure from the perspective of how designers can consult product teams about scalable design system patterns and guidelines that are applied in their customized solutions to create seamless end-to-end experiences.
-      I was able to quickly acclimate and get comfortable with the design methodology used by the tech sector while preserving design quality by producing instructional resources for inclusive design, managing individual project ownership, and communicating with cross-functional partners.</h6>
-      <h6>Sometimes when my cross-functional partners provided conflicting feedback, it was challenging to find a balance and bring my designs to an agreement, but I learned to understand and empathize with their positions. A product manager might advocate for designs that align more closely with the product road map while an engineer might prefer designs that can be implemented effectively. Understanding different internal goals and trying to bridge the gap was a fun challenge.</h6>
-    </div>
   </body>
-
-  <!-- Footer -->
-  <div class="footer">
-    <div class="container">
-      <p class="footer-title">Ardensa Cartajona</p>
-      <div class="footer-container">
-        <p class="footer-subtitle">
-          Email me at
-          <a href="mailto:ac2665@cornell.edu">ac2665@cornell.edu</a> to talk
-          about anything.
-        </p>
-        <div class="footer-links">
-          <a href="#">Projects</a>
-          <a href="#">Extra</a>
-          <a href="#">About</a>
-          <a href="#">Resume</a>
-        </div>
-      </div>
-      <hr />
-      <div class="footer-container-bottom">
-        <p class="footer-subtitle">
-          Copyright 2021 Ardensa. All rights reserved.
-        </p>
-        <div class="footer-social-links">
-          <a href="https://www.linkedin.com/in/ardensa-cartajona-371262148/"><i class="fab fa-linkedin"></i></a
-          ><a href="https://www.instagram.com/_anderson_38_/"><i class="fab fa-instagram"></i></a
-          ><a href="https://twitter.com/38_cartagena"><i class="fab fa-twitter"></i></a
-          ><a href="https://open.spotify.com/user/anderson.cartagena"><i class="fab fa-spotify"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
 </html>

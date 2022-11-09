@@ -10,7 +10,7 @@ body {
 }
 
 .nav {
-  height: 76px;
+  height: 72px;
   width: 100%;
   background-color: transparent;
   position: relative;
@@ -25,8 +25,8 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   text-decoration: none;
-  font-size: 28px;
-  padding: 24px 10px 24px 10px;
+  font-size: 22px;
+  padding: 40px 0 0 12px;
 }
 
 .title {
@@ -35,7 +35,7 @@ body {
 }
 
 .title:hover {
-  color: #FFCC00;
+  color: #C8C8C8;
 }
 
 .nav > .nav-btn {
@@ -45,12 +45,12 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 26px 18px 26px 18px;
+  padding: 44px 0 0 18px;
   text-decoration: none;
   color: #000000;
   transition: background-color 0.3s ease-in-out;
@@ -58,7 +58,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  color: #FFCC00;
+  color: #C8C8C8;
 }
 
 .nav > #nav-check {
