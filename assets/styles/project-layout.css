@@ -11,6 +11,7 @@ body {
 
 .jumbotron {
     height: fit-content;
+    margin-top: 28px;
 }
 
 .silver-block {
