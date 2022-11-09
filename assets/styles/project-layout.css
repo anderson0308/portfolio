@@ -44,6 +44,7 @@ body {
 .preview.mobile {
     max-width: 718px;
     height: fit-content;
+    max-height: 438px;
     margin-top: 196px;
 }
 
