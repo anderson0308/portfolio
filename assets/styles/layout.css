@@ -37,7 +37,6 @@ body {
 
 .project-card.desktop img {
   width: 252px;
-  height: fit-content;
   max-height: 154px;
   margin: 56px 64px
 }
@@ -50,7 +49,7 @@ body {
 
 .project-card.mobile img {
   width: 154px;
-  height: fit-content;
+  max-height: 202px;
   margin: 32px 113px
 }
 
