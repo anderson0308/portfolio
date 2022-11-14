@@ -45,6 +45,8 @@ h4 {
 h5 {
   font-size: 15px;
   font-weight: normal;
+  letter-spacing: 2.4%;
+  line-height: 130%;
 }
 
 h6, li {
@@ -67,11 +69,7 @@ li {
 }
 
 .silver {
-  color:#C8C8C8 !important;
-}
-
-.gray {
-  color: #C8C8C8;
+  color: #AAAAAA !important;
 }
 
 .light-blue {
